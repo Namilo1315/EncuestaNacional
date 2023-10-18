@@ -12,49 +12,52 @@
 <body>
     <div> 
         <h1 class="text-center p-3 mb-2 bg-primary-subtle text-emphasis-primary">Elecciones Nacionales</h1>
-       <h3 class="text-center mb-4">En la siguiente encuesta podrás visualizar cuál es el candidato a Presidente que preferís para nuestro país.</h3>
+       <h4 class="text-center mb-4">En la siguiente encuesta podrás visualizar cuál es el candidato a Presidente que preferís para nuestro país.</h4>
     </div>
 
     <div class="encuesta-container">
-        <div class="pregunta mt-2 ">1-¿Qué piensa que se debería hacer con la Salud?</div>
+        <div class=" contenedor "> 
+        <div class="pregunta mt-2 "> <h5>1-¿Qué piensa que se debería hacer con la Salud?</h5></div>
         <input type="radio" name="p1" id="p1A" value="A"> 
-        <label for="p1A">Estatal y Pública</label>
+        <label for="p1A">Estatal y Pública</label><br>
         <input type="radio" name="p1" id="p1B" value="B">       
         <label for="p1B">Privatizar</label>
         
-        <div class="pregunta">2-¿Qué piensa que se debería hacer con la Educación?</div>
+        <div class="pregunta"><h5>2-¿Qué piensa que se debería hacer con la Educación? </h5></div>
         <input type="radio" name="p2" id="p2A" value="A">
-        <label for="p2A">Estatal y Pública</label>
+        <label for="p2A">Estatal y Pública</label><br>
         <input type="radio" name="p2" id="p2B" value="B">
         <label for="p2B">Privatizar</label>
         
-        <div class="pregunta">3-¿Que piensa sobre el futuro del trabajadores estatales?</div>
+        <div class="pregunta"><h5>3-¿Que piensa sobre el futuro del trabajadores estatales?</h5></div>
         <input type="radio" name="p3" id="p3A" value="A">
-        <label for="p3A">Recuperación  de los puestos laborales</label>
+        <label for="p3A">Recuperación  de los puestos laborales</label><br>
         <input type="radio" name="p3" id="p3B" value="B">
         <label for="p3B">Sin trabajo</label>
       
         
-        <div class="pregunta">4-¿Que piensa de la deuda FMI?</div>
+        <div class="pregunta"><h5>4-¿Que piensa de la deuda FMI?</h5></div>
         <input type="radio" name="p4" id="p4A" value="A">
-        <label for="p4A">Que se realice un Plan de Pago</label>
+        <label for="p4A">Que se realice un Plan de Pago</label><br>
         <input type="radio" name="p4" id="p4B" value="B">
         <label for="p4B">Que la poblacion la pague</label>
         
         
-        <div class="pregunta">5-Que piensa de los recursos Naturales?</div>
+        <div class="pregunta"> <h5>5-Que piensa de los recursos Naturales? </h5></div>
         <input type="radio" name="p5" id="p5A" value="A">
-        <label for="p5A">Sigan siendo Nacionales</label>
+        <label for="p5A">Sigan siendo Nacionales</label><br>
         <input type="radio" name="p5" id="p5B" value="B">
         <label for="p5B">Explotación Extrangera</label>
         <div class="text-center"> 
             <input class="btn btn-outline-primary mt-3" type="button" value="Calcular Voto" onclick="calcularVoto()">   
         </div>
-       
+    </div>
 
         <p id="resultado"></p>
     </div>
- 
+    <footer>
+        <h1></h1>
+    </footer>
      
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

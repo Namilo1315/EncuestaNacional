@@ -8,7 +8,7 @@ h1 {
     text-align: center;
 }
 .encuesta-container {
-    max-width: 900px;
+    max-width: 600px;
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
@@ -16,6 +16,7 @@ h1 {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .pregunta {
     font-weight: bold;
     margin-bottom: 13px;
